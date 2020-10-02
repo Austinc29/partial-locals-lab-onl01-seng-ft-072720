@@ -6,7 +6,6 @@ RSpec.describe StudentsController, type: :controller do
       render_views
 
       
-    end
   end
 
 end
