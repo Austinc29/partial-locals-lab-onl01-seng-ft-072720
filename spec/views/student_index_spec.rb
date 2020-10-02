@@ -9,7 +9,4 @@ RSpec.describe "Student" do
       student_names.each do |name|
         Student.create(name: name, hometown: Faker::Address.city, birthday: Faker::Date.between(from: 25.years.ago, to: 18.years.ago))
       end
-    end
-
-  
 end
